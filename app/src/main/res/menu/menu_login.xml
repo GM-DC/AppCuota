@@ -10,5 +10,10 @@
         android:title="Cerrar Sesion"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/item_next"
+        android:title="Otro"
+        app:showAsAction="never" />
+
 
 </menu>

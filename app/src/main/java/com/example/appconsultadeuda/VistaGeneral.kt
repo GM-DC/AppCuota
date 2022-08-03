@@ -2,6 +2,7 @@ package com.example.appconsultadeuda
 
 
 import android.app.ProgressDialog
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
@@ -39,7 +40,6 @@ class VistaGeneral : AppCompatActivity() {
         binding = ActivityVistaGeneralBinding.inflate(layoutInflater)
         setContentView(binding.root)
         apiInterface = APIClient.client?.create(CuotaApi::class.java)
-
 
         eventsHandlers()
         iniciarCuota()
@@ -95,7 +95,6 @@ class VistaGeneral : AppCompatActivity() {
         CoroutineScope(Dispatchers.IO).launch {
             val response = apiInterface!!.getRuc("${prefs.getUser()}")
             runOnUiThread{
-
                 listaConsultaCuota.clear()
                 listaConsultaCuota.addAll(response.body()!!)
                 adapterListaCuota.notifyDataSetChanged()
@@ -121,51 +120,29 @@ class VistaGeneral : AppCompatActivity() {
         }
     }
 
+    //************************* Tollbar ********************************
     private fun funcionTollbar() {
         setSupportActionBar(binding.toolbar)
         supportActionBar!!.title = null
-
     }
-
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater: MenuInflater = menuInflater
         inflater.inflate(R.menu.menu_login, menu)
         return true
     }
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle item selection
         return when (item.itemId) {
             R.id.item_configuracion -> {
                 super.onBackPressed()
                 true
             }
+            R.id.item_next -> {
+                val i = Intent(applicationContext, VistaGrafica::class.java)
+                startActivity(i)
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
-    }
-
-
-
-    private fun iniciarData() {
-        listaConsultaCuotaDetalle.add(Cuota("ENERO","01/01/2000","300.0","PAGADO","0001",1))
-        listaConsultaCuotaDetalle.add(Cuota("FEBRERO","01/02/2000","300.0","PAGADO","0001",2))
-        listaConsultaCuotaDetalle.add(Cuota("MARZO","01/03/2000","300.0","PAGADO","0001",3))
-        listaConsultaCuotaDetalle.add(Cuota("ABRIL","01/04/2000","300.0","PAGADO","0001",4))
-        listaConsultaCuotaDetalle.add(Cuota("MAYO","01/05/2000","300.0","PAGADO","0001",5))
-        listaConsultaCuotaDetalle.add(Cuota("JUNIO","01/06/2000","300.0","PAGADO","0001",6))
-        listaConsultaCuotaDetalle.add(Cuota("JULIO","01/07/2000","300.0","VENCIDO","0001",7))
-        listaConsultaCuotaDetalle.add(Cuota("AGOSTO","01/08/2000","300.0","PENDIENTE","0001",8))
-        listaConsultaCuotaDetalle.add(Cuota("SETIEMBRE","01/09/2000","300.0","PENDIENTE","0001",9))
-        listaConsultaCuotaDetalle.add(Cuota("OCTUBRE","01/10/2000","300.0","PENDIENTE","0001",10))
-        listaConsultaCuotaDetalle.add(Cuota("NOVIEMBRE","01/11/2000","300.0","PENDIENTE","0001",11))
-        listaConsultaCuotaDetalle.add(Cuota("DICIEMBRE","01/12/2000","300.0","PENDIENTE","0001",12))
-        listaConsultaCuota.add(dataCuota(2000,listaConsultaCuotaDetalle))
-        listaConsultaCuota.add(dataCuota(2001,listaConsultaCuotaDetalle))
-        listaConsultaCuota.add(dataCuota(2002,listaConsultaCuotaDetalle))
-        listaConsultaCuota.add(dataCuota(2003,listaConsultaCuotaDetalle))
-        listaConsultaCuota.add(dataCuota(2004,listaConsultaCuotaDetalle))
-        listaConsultaCuota.add(dataCuota(2005,listaConsultaCuotaDetalle))
-        adapterListaCuota.notifyDataSetChanged()
     }
 
 }
