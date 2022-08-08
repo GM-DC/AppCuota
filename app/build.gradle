@@ -58,6 +58,7 @@ dependencies {
     implementation"com.squareup.okhttp3:logging-interceptor:3.9.0"
     //Corrutinas
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.6'
+
     //Room
     implementation("androidx.room:room-ktx:2.4.2")
     kapt "androidx.room:room-compiler:2.4.2"
@@ -70,4 +71,11 @@ dependencies {
 
     //ANYCHART - GRAFICA
     implementation 'com.github.AnyChart:AnyChart-Android:1.1.2'
+
+    //Material Desing
+    implementation 'com.google.android.material:material:1.7.0-alpha03'
+
+    //Fragment
+    implementation("androidx.fragment:fragment-ktx:1.5.1")
+
 }

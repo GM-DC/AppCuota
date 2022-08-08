@@ -8,6 +8,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.appconsultadeuda.DATAGLOBAL.Companion.database
 import com.example.appconsultadeuda.DATAGLOBAL.Companion.prefs
+import com.example.appconsultadeuda.UI.actyTabLayout
 import com.example.appconsultadeuda.databinding.ActivityLoginBinding
 import com.example.appconsultadeuda.entity.DataLoginCuota.LoginComercialResponse
 import com.example.appconsultadeuda.entity.DataLoginCuota.dataLogin
@@ -79,20 +80,13 @@ class Login : AppCompatActivity() {
                             pd.cancel()
                         }else {
                             prefs.save_User(user.text.toString())
-
                             val user1 = response.body()!!
-
                             CoroutineScope(Dispatchers.IO).launch {
-
                                 runOnUiThread {
-
-                                    val i = Intent(applicationContext, VistaGeneral::class.java)
+                                    val i = Intent(applicationContext, actyTabLayout::class.java)
                                     startActivity(i)
-
                                     pass.setText("")
-
                                     pd.cancel()
-
                                 }
                             }
                         }

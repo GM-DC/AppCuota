@@ -40,4 +40,5 @@
     <string name="NUMEROCOTIZACION">COTI-00000010</string>
     <string name="fecha_11_22_2021">Fecha: 11-22-2021</string>
     <string name="title_activity_add_pedido">ActivityAddPedido</string>
+    <string name="title_activity_acty_cambio_passcode">actyCambioPasscode</string>
 </resources>

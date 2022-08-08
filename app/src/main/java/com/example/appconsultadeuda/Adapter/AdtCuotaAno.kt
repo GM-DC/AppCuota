@@ -9,6 +9,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.appconsultadeuda.R
+import com.example.appconsultadeuda.databinding.CardDataAnoBinding
 import com.example.appconsultadeuda.entity.DataCuota.dataCuota
 
 class AdtCuota (var data:ArrayList<dataCuota>): RecyclerView.Adapter<AdtCuota.holderConsultaDataDeuda>(){
@@ -28,13 +29,15 @@ class AdtCuota (var data:ArrayList<dataCuota>): RecyclerView.Adapter<AdtCuota.ho
     }
 
     class holderConsultaDataDeuda(private val view: View): RecyclerView.ViewHolder(view){
+
+        val binding = CardDataAnoBinding.bind(view)
+
         fun holderConsultaStock (data: dataCuota){
             val tv_ano=view.findViewById<TextView>(R.id.tv_ano)
             val rv_meses=view.findViewById<RecyclerView>(R.id.rv_meses)
 
             tv_ano.text = data.año.toString()
             tv_ano.setTextColor(ContextCompat.getColor(this.itemView.context, R.color.colorPrimary))
-
 
             rv_meses?.layoutManager = GridLayoutManager(this.itemView.context,2, RecyclerView.VERTICAL,false)
             val childRecyclerAdapter = AdtCuoataMes(data.cuotas)

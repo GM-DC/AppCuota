@@ -19,6 +19,15 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".UI.actyCambioContrasena"
+            android:exported="false" />
+        <activity
+            android:name=".UI.actyTabLayout"
+            android:exported="false" />
+        <activity
+            android:name=".actyHome"
+            android:exported="false" />
+        <activity
             android:name=".VistaGrafica"
             android:exported="false" />
         <activity
