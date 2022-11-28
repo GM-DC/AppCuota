@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.actyCambioContrasena">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:weightSum="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_main_button"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="0.2"
+                        android:layout_width="40dp"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/colorPrimary" />
+
+                    <TextView
+                        android:layout_weight="0.6"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cambio de Contraseña"
+                        />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:layout_width="50dp"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/colorPrimary" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:id="@+id/maincontainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:weightSum="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="61dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittext_main_button"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_weight="0.1"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/ic_key"
+                            app:tint="@color/colorPrimary" />
+
+                        <EditText
+                            android:layout_weight="0.9"
+                            android:id="@+id/tv_oldPasscode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/edittext_main_button"
+                            android:gravity="center_vertical"
+                            android:hint="Antigua Contraseña"
+                            android:inputType="numberPassword"
+                            android:text=""
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHighlight="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textColorLink="@color/colorPrimary"
+                            android:textSize="20sp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:weightSum="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="61dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittext_main_button"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_weight="0.1"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/ic_key"
+                            app:tint="@color/colorPrimary" />
+
+                        <EditText
+                            android:layout_weight="0.9"
+                            android:id="@+id/tv_newPasscode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/edittext_main_button"
+                            android:gravity="center_vertical"
+                            android:hint="Nueva Contraseña"
+                            android:text=""
+                            android:inputType="numberPassword"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHighlight="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textColorLink="@color/colorPrimary"
+                            android:textSize="20sp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:weightSum="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="61dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/edittext_main_button"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_weight="0.1"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:src="@drawable/ic_key"
+                            app:tint="@color/colorPrimary"
+                            android:layout_marginTop="15dp"
+                            />
+
+                        <EditText
+                            android:layout_weight="0.8"
+                            android:id="@+id/tv_newPasscodeRepirt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:background="@drawable/edittext_main_button"
+                            android:gravity="center_vertical"
+                            android:hint="Repetir Nueva Contraseña"
+                            android:inputType="numberPassword"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHighlight="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textColorLink="@color/colorPrimary"
+                            android:textSize="20sp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/colorPrimary" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="33dp"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/btn_confirmar"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@color/colorPrimary"
+                            android:text="CAMBIAR"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp"
+                            android:typeface="normal" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_below="@+id/olvidar"
+                    android:background="@drawable/background_mantenmiento"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="400dp"></LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

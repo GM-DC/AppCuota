@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/drawable-v24/bg_overlay.xml" value="0.1625" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/drawable-v24/edittext_main_button.xml" value="0.163" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/drawable-v24/ic_cancel.xml" value="0.2305" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/drawable-v24/ic_cerrar_ot.xml" value="0.2305" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/drawable-v24/ic_check.xml" value="0.2305" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/drawable-v24/ic_clear.xml" value="0.2305" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2305" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/drawable/ic_ckech.xml" value="0.2305" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/drawable/ic_rec.xml" value="0.137" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/activity_acty_cambio_contrasena.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/activity_login.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/activity_main.xml" value="0.3500905797101449" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/activity_vista_general.xml" value="0.33" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/activity_vista_grafica.xml" value="0.20742753623188406" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/acty_cambio_contrasena.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/acty_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/acty_tab_layout.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/card_data_ano.xml" value="0.33" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/card_data_mes.xml" value="0.27943840579710144" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/card_input_code.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/frg_all_list_cuota.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/frg_detalle_cuota.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/layout/toobar.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/menu/menu.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/menu/menu_lateral.xml" value="0.365625" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/menu/menu_login.xml" value="0.1921875" />
+        <entry key="..\:/Users/Gian/Documents/AndroidStudio/APPConsultaDeuda/app/src/main/res/menu/menu_main.xml" value="0.253125" />
+        <entry key="..\:/Users/buhor/.gradle/caches/transforms-3/2cb389d4d922d700816131e72bad4027/transformed/appcompat-1.5.0-beta01/res/layout/support_simple_spinner_dropdown_item.xml" value="0.371875" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/drawable-v24/background_label_fab.xml" value="0.2975" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/activity_vista_general.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/activity_vista_grafica.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/acty_cambio_contrasena.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/acty_home.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/acty_rescue_password.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/acty_tab_layout.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/card_input_code.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/frg_all_list_cuota.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/frg_change_password.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/frg_detalle_cuota.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/frg_enter_code.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/frg_enter_doc.xml" value="0.3578125" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/layout/toobar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/menu/menu_configuracion.xml" value="0.371875" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/menu/menu_lateral.xml" value="0.371875" />
+        <entry key="..\:/Users/buhor/Documents/Kotlin/AppConsultaCuota/app/src/main/res/menu/menu_login.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
